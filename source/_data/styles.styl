@@ -1,0 +1,98 @@
+body {
+ 	background:url(https://w.wallhaven.cc/full/x6/wallhaven-x67zko.jpg);
+ 	background-repeat: no-repeat;
+    background-attachment: fixed; //是否滚动，fixed固定
+    background-size: cover;      //填充
+    background-position: center;
+}
+//文章背板的颜色rgb
+.main-inner > .sub-menu, .main-inner > .post-block, .main-inner > .tabs-comment, .main-inner > .comments, .main-inner > .pagination{
+	background: rgba(0,0,0,.5);		//此处使用十六进制颜色代码，			也可以使用rgba进行调色，
+    							//实际效果为白色透明色底板				rgba的第四参数即为透明度
+}
+.post-block{
+  background: rgba(0,0,0,.4);
+  //background: none;
+}
+body{				//修改主体字体颜色
+  color:  #fff;		//纯黑
+}
+
+.post-body a,.tag-cloud-tags a{
+  color:#56c5ab !important
+}
+.post-body a:hover{
+  
+  border-color:#00ffc3
+}
+.tag-cloud-tags a:hover{
+color:#56c5ab !important
+}
+
+.posts-expand .post-title-link {	//标题颜色
+    color: #fff;				//首页文章标题颜色， （默认为灰辨识度不高）
+}
+.posts-expand .post-meta a,.post-tags a,.footer-inner a,.post-nav-item a{	
+    color: #56c5ab;				
+}
+.posts-expand .post-meta{//标题下的日期颜色
+   color: #ccc;				//此处修改为红色，可自行调用rgb调色
+}
+ 
+ .footer-inner{
+  color:#fff
+ }
+
+//侧边框的透明度设置
+.sidebar {
+  opacity: 0.7;
+  background:none
+}
+ 
+//菜单栏的调色
+.header-inner {		
+  // background: rgba(255,255,255,0.3);
+}
+//搜索框透明
+.popup {		
+  opacity: 1;
+}
+
+.site-title{
+    
+}
+ 
+.main-inner {
+    background-color: rgba(255, 255, 255, 0);  //主体背景透明
+    padding: 0px 40px 40px 40px;  //调整组件位置
+}
+
+//评论区透明度
+.comments {
+	background: rgba(255,255,255,0.7) none repeat scroll !important;
+}
+
+/* sidebar social icon */
+.bilibili{
+  background-image: url(/images/Bilibili.svg);
+}
+.github{
+  background-image: url(/images/GitHub.svg);
+}
+.weibo{
+  background-image: url(/images/weibo.svg);
+}
+.bilibili,.weibo ,.github{
+  background-size: 1em 1em;
+  opacity: 1;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem; 
+  border-radius: 0rem;
+  /*鼠标停留在图标上时，图标呈现发光效果*/
+  &:hover {
+      opacity: 1;
+    }
+}
+
