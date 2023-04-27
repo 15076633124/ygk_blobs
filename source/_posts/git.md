@@ -8,7 +8,9 @@ description: git常用命令
 categories: 
  - [前端,git]
 ---
-![](https://w.wallhaven.cc/full/1p/wallhaven-1pd1o9.jpg)
+<img src="/images/git.png"  />
+<!--more-->
+
 # Git常用命令
 
 ###  基本命令

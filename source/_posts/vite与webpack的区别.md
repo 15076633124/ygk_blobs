@@ -6,6 +6,8 @@ tags: vite和webpack的区别
 description: vite和webpack的区别
 categories: 前端
 ---
+<img src="/images/vite与webpack.jpg"   />
+<!--more-->
 
 ## vite
 

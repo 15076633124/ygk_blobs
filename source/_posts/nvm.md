@@ -7,6 +7,8 @@ description: nvm下载安装及常用命令
 categories: 
     - [前端,nvm]
 ---
+<img src="/images/nvm.jpg" />
+<!--more-->
 
 ## nvm简介
 

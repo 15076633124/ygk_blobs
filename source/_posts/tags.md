@@ -6,7 +6,7 @@ top: true
 tags: 自我介绍
 categories: 个人
 ---
-<img src="/images/风筝.jpg" width="100%" height="500"  alt="风筝" align=left />
+<img src="/images/风筝.jpg" />
 一名前端开发工程师，热爱学习，接受新的知识
 
 写博客的目的：
